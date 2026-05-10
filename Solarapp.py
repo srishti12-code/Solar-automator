@@ -8,7 +8,7 @@ import json
 # Configuration
 API_KEY = "AIzaSyA-mPQ8TUx9vr3-BwJRPbbicxOPZmGMp7w"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
 st.set_page_config(page_title="Solar Bill Automator", page_icon="☀️")
 
